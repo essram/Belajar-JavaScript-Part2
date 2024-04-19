@@ -16,4 +16,9 @@ const barang = {
   },
 };
 
+//console.log(orang[("nama")]); key harus ditulis sesuai dengan value tipe data yang ada
 
+console.log("Nama Orang : " + orang.nama);
+console.log("Status : " + barang["is" + "Ready"]);
+console.log("Lokasi : " + barang.location.indonesia);
+console.log("Size : " + barang.size[3]);
