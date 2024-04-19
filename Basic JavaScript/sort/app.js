@@ -1,0 +1,31 @@
+const alphabet = [
+  " Z",
+  "P",
+  "F",
+  "K",
+  "Y",
+  "B",
+  "H",
+  "C",
+  "Q",
+  "X",
+  "A",
+  "M",
+  "W",
+  "D",
+  "T",
+  "G",
+  "R",
+  "V",
+  "S",
+  "J",
+  "N",
+  "U",
+  "E",
+  "L",
+  "O",
+  "I",
+];
+
+alphabet.sort();
+console.log(alphabet);
