@@ -16,9 +16,17 @@ const barang = {
   },
 };
 
+// Mengganti value key
+orang.nama = 'ram';
+orang.umur = 16;
+orang.alamat = 'Sidorajo';
+orang.gender = "Laki-laki";
+
+
+// Cara memanggil object
 //console.log(orang[("nama")]); key harus ditulis sesuai dengan value tipe data yang ada
 
-console.log("Nama Orang : " + orang.nama);
+console.log(orang);
 console.log("Status : " + barang["is" + "Ready"]);
 console.log("Lokasi : " + barang.location.indonesia);
 console.log("Size : " + barang.size[3]);
