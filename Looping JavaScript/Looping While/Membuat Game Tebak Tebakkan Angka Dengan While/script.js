@@ -7,13 +7,15 @@ const targetNum = Math.floor(Math.random() * maximum) + 1;
 console.log(targetNum);
 
 let guess = parseInt(prompt("Enter your first guess: "));
+let attempts = 1;
 
-while(guess !== targetNum){
-    if(guess === targetNum){
-        guess = prompt("to far");
+while(parseInt(guess) !== targetNum) {
+    attempts++;
+    if(guess > targetNum){
+        guess = parseInt(prompt("to far"));
 } else {
-    guess = prompt("to bottom");
+    guess = parseInt(prompt("to bottom"));
 }
 }
 
-alert(`Congrats! You got it! It was ${targetNum}.`);
+alert(`Congrats! You got it! It was, dengan percobaan ${attempts} kali`);
